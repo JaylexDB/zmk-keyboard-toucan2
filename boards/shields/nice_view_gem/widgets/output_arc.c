@@ -40,10 +40,10 @@ static void draw_ble_connected(lv_obj_t *canvas, uint8_t profile_index) {
         case 1:
             lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "MAC");
             break;
-        case 2:
+        case 3:
             lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "iPhone");
             break;
-        case 3:
+        case 4:
             lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "SteamDeck");
             break;
         default:
