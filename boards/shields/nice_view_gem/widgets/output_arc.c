@@ -23,7 +23,7 @@ static void draw_ble_disconnected(lv_obj_t *canvas) {
 static void draw_ble_connected(lv_obj_t *canvas) {
     lv_draw_label_dsc_t label_dsc;
     init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_8, LV_TEXT_ALIGN_RIGHT);
-    lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "BLE");
+    lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "Windows");
 }
 
 /* ========================================================================== */
