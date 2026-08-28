@@ -19,15 +19,15 @@ static void draw_ble_disconnected(lv_obj_t *canvas) {
 /* ========================================================================== */
 /* COMMENTED OUT ORIGINAL CODE BLOCK                                          */
 /* ========================================================================== */
-#if 0
+
 static void draw_ble_connected(lv_obj_t *canvas) {
     lv_draw_label_dsc_t label_dsc;
     init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_8, LV_TEXT_ALIGN_RIGHT);
     lv_canvas_draw_text(canvas, -18, 143, SCREEN_WIDTH-8, &label_dsc, "BLE");
 }
-#endif
-/* ========================================================================== */
 
+/* ========================================================================== */
+/*
 // NEW UPDATED CODE BLOCK WITH CUSTOM CONNECTION NAMES
 static void draw_ble_connected(lv_obj_t *canvas, uint8_t profile_index) {
     lv_draw_label_dsc_t label_dsc;
@@ -48,7 +48,7 @@ static void draw_ble_connected(lv_obj_t *canvas, uint8_t profile_index) {
             break;
     }
 }
-
+*/
 void draw_output_status(lv_obj_t *canvas, const struct status_state *state) {
     switch (state->selected_endpoint.transport) {
         case ZMK_TRANSPORT_USB:
@@ -56,7 +56,7 @@ void draw_output_status(lv_obj_t *canvas, const struct status_state *state) {
             break;
         case ZMK_TRANSPORT_BLE:
             // Pass the active profile index from the state structure
-            draw_ble_connected(canvas, state->selected_endpoint.profile_index);
+            draw_ble_connected(canvas);
             break;
         default:
             draw_ble_disconnected(canvas);
