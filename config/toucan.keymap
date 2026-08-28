@@ -41,7 +41,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LC(LA(DELETE))  &kp TAB  &mt LEFT_GUI A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &kp F  &kp G  &kp H  &kp J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_GUI SEMI  &kp SQT  &kp LG(LS(S))  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LG(LA(K))  &L_shift_caps  &kp BACKSPACE  &lt 1 SPACE  &lt 2 RET  &kp DELETE  &kp RIGHT_SHIFT
+&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LC(LA(DELETE))  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LG(LS(S))  &mt LEFT_GUI Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &kp V  &kp B  &kp N  &kp M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_GUI FSLH  &kp LG(LA(K))  &L_shift_caps  &kp BACKSPACE  &lt 1 SPACE  &lt 2 RET  &kp DELETE  &kp RIGHT_SHIFT
             >;
         };
 
